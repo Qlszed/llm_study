@@ -3,9 +3,9 @@ This repository contains the raw data tables referenced in
 "Subword Fragmentation: Evaluating LLM Error Patterns in Kazakh-Russian-English Code-Switching"
 (Zhanadil Yenbayev, Pioneer Academics, 2026).
 
-- `scoring_matrixanalyzed.xlsx` - per-response accuracy and Faithfulness scores for all 360 model responses
+- `scoring_matrixanalyzed.xlsx` - per-response accuracy and Faithfulness scores for all 360 model responses, percentage tables
 - `token_word_ratiotest.xlsx` - token counts, word counts, and TWR for all 120 prompts
 - `code_switching_resultsx.xlsx` - the full set of 120 Monolingual/Bilingual/Trilingual prompts used in the study and all 360 model responses
-- `sample.xlsx` - a random sample of 72 responses given to an independent reviewer to evaluate
+- `sample.xlsx` - a random sample of 72 responses given to a second reviewer to evaluate through discussion
 
-The Python scripts are listed in the Appendices of the paper.
+The Python scripts are also listed in the Appendices of the paper.
