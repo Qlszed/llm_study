@@ -13,7 +13,7 @@ artifacts/
 
 code/
 - `prompts.py` - This script builds the 120 prompts from the base sentence set, sends each one to GPT-5.5, Gemini 3.1 Pro Preview, and Qwen3.5 397B A17B through OpenRouter, and saves all responses to a CSV file.
-- `TWR.py` - This script computes the word count and token count of each prompt using each model’s tokenizer, then calculates the Token-to-Word Ratio (TWR) for each response.
+- `TWR.py` - This script computes the word count and token count of each prompt using each model’s tokenizer, then calculates the Token-to-Word Ratio (TWR) for each prompt.
 - `correlations.py` - This script merges the scoring data with the TWR data and computes Pearson and Spearman correlations between TWR and accuracy score for each model.
 - `graphs.py` - This script produces Figure 1 (average accuracy by model and category) and Figure 2 (average TWR by code-switching level).
 
