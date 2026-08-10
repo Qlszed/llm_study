@@ -18,3 +18,4 @@ code/
 - `graphs.py` - This script produces Figure 1 (average accuracy by model and category) and Figure 2 (average TWR by code-switching level).
 
 The Python scripts are also listed in the Appendices of the paper. Requirements are included in the scripts, since each was ran independently via the Google Colab platform.
+Model identifiers used: openai/gpt-5.5, google/gemini-3.1-pro-preview, qwen/qwen3.5-397b-a17b, (temperature=0.0, max_tokens=10000, timeout=45.0).
